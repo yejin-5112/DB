@@ -1,0 +1,7 @@
+CREATE TABLE RESTAURANT ( -- 음식점
+    Rno NUMBER(3) PRIMARY KEY,       
+    Raddr VARCHAR2(200) NOT NULL,     
+    Rtel VARCHAR2(20) NOT NULL,       
+    Cno NUMBER(2),                    
+    CONSTRAINT fk_cno FOREIGN KEY (Cno) REFERENCES CATEGORY(Cno)
+);
