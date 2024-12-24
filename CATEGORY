@@ -1,0 +1,9 @@
+CREATE TABLE CATEGORY ( -- 분류
+    cno NUMBER(2) PRIMARY KEY,
+    cname VARCHAR2(30) NOT NULL
+);
+
+insert into CATEGORY (cno,cname) VALUES (1,'한식');
+insert into CATEGORY (cno,cname) VALUES (2,'중식');
+insert into CATEGORY (cno,cname) VALUES (3,'양식');
+insert into CATEGORY (cno,cname) VALUES (4,'일식');
