@@ -1,0 +1,4 @@
+INSERT INTO RESTAURANT (Rno, Raddr, Rtel, Cno) VALUES (1, '서울시 강남구 테헤란로 10', '02-1234-5678', 1);
+INSERT INTO RESTAURANT (Rno, Raddr, Rtel, Cno) VALUES (2, '서울시 종로구 종로3길 20', '02-2345-6789', 2);
+INSERT INTO RESTAURANT (Rno, Raddr, Rtel, Cno) VALUES (3, '부산시 해운대구 해운대로 30', '051-123-4567', 3);
+INSERT INTO RESTAURANT (Rno, Raddr, Rtel, Cno) VALUES (4, '대구시 수성구 들안길 50', '053-987-6543', 4);
