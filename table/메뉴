@@ -1,0 +1,8 @@
+CREATE TABLE MENU ( -- 메뉴
+    Mno NUMBER(2) PRIMARY KEY,
+    Mname VARCHAR2(50) NOT NULL,
+    Price NUMBER(7) NOT NULL, 
+    mdesc VARCHAR2(2000),
+    Rno NUMBER(3),
+    CONSTRAINT fk_restaurant FOREIGN KEY (Rno) REFERENCES RESTAURANT(Rno)
+);
