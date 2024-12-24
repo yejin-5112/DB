@@ -1,0 +1,5 @@
+CREATE TABLE CUSTOMER ( -- 고객
+    cid VARCHAR2(10) PRIMARY KEY,     
+    ctel VARCHAR2(20), -- 전화번호 저장 시 VARCHAR2 사용
+    caddr VARCHAR2(200)              
+);
