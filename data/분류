@@ -1,0 +1,4 @@
+insert into CATEGORY (cno,cname) VALUES (1,'한식');
+insert into CATEGORY (cno,cname) VALUES (2,'중식');
+insert into CATEGORY (cno,cname) VALUES (3,'양식');
+insert into CATEGORY (cno,cname) VALUES (4,'일식');
