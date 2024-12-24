@@ -1,0 +1,14 @@
+INSERT INTO CUSTOMER (cid, ctel, caddr)
+VALUES ('C001', '010-1234-5678', '서울시 강남구 테헤란로 10');
+
+INSERT INTO CUSTOMER (cid, ctel, caddr)
+VALUES ('C002', '010-9876-5432', '부산시 해운대구 해운대로 20');
+
+INSERT INTO CUSTOMER (cid, ctel, caddr)
+VALUES ('C003', '010-1111-2222', '대구시 수성구 들안길 50');
+
+INSERT INTO CUSTOMER (cid, ctel, caddr)
+VALUES ('C004', '010-5555-6666', '광주시 서구 무진대로 30');
+
+INSERT INTO CUSTOMER (cid, ctel, caddr)
+VALUES ('C005', '010-7777-8888', '인천시 남동구 구월로 40');
