@@ -1,0 +1,11 @@
+CREATE TABLE ORDERS ( -- 주문 
+    Ono NUMBER(3), 
+    Odate DATE NOT NULL, 
+    Total NUMBER(10),
+    Qty NUMBER(3) NOT NULL,
+    Mno NUMBER(2),
+    cid VARCHAR2(10),
+    CONSTRAINT pk_order PRIMARY KEY (Ono),
+    CONSTRAINT fk_menu FOREIGN KEY (Mno) REFERENCES MENU(Mno),
+    CONSTRAINT fk_customer FOREIGN KEY (cid) REFERENCES CUSTOMER(cid)
+);
