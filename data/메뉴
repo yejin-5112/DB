@@ -1,0 +1,27 @@
+-- Rno 1번 음식점의 메뉴
+INSERT INTO MENU (Mno, Mname, Price, mdesc, Rno)
+VALUES (1, '김밥', 3000, '신선한 재료로 만든 김밥', 1);
+
+INSERT INTO MENU (Mno, Mname, Price, mdesc, Rno)
+VALUES (2, '라면', 4000, '매콤한 국물이 일품인 라면', 1);
+
+-- Rno 2번 음식점의 메뉴
+INSERT INTO MENU (Mno, Mname, Price, mdesc, Rno)
+VALUES (3, '짜장면', 6000, '진한 짜장 소스의 짜장면', 2);
+
+INSERT INTO MENU (Mno, Mname, Price, mdesc, Rno)
+VALUES (4, '탕수육', 12000, '바삭한 튀김옷과 달콤한 소스의 탕수육', 2);
+
+-- Rno 3번 음식점의 메뉴
+INSERT INTO MENU (Mno, Mname, Price, mdesc, Rno)
+VALUES (5, '크림 파스타', 14000, '부드럽고 고소한 크림 파스타', 3);
+
+INSERT INTO MENU (Mno, Mname, Price, mdesc, Rno)
+VALUES (6, '마르게리타 피자', 16000, '신선한 토마토와 치즈의 조화', 3);
+
+-- Rno 4번 음식점의 메뉴
+INSERT INTO MENU (Mno, Mname, Price, mdesc, Rno)
+VALUES (7, '스시 세트', 20000, '신선한 생선과 쌀로 만든 정통 스시 세트', 4);
+
+INSERT INTO MENU (Mno, Mname, Price, mdesc, Rno)
+VALUES (8, '우동', 8000, '따뜻하고 담백한 국물 우동', 4);
