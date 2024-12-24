@@ -1,0 +1,14 @@
+INSERT INTO ORDERS (Ono, Odate, Total, Qty, Mno, cid)
+VALUES (1, TO_DATE('2024-12-24', 'YYYY-MM-DD'), 6000, 2, 1, 'C001');
+
+INSERT INTO ORDERS (Ono, Odate, Total, Qty, Mno, cid)
+VALUES (2, TO_DATE('2024-12-23', 'YYYY-MM-DD'), 12000, 2, 2, 'C002');
+
+INSERT INTO ORDERS (Ono, Odate, Total, Qty, Mno, cid)
+VALUES (3, TO_DATE('2024-12-22', 'YYYY-MM-DD'), 36000, 3, 3, 'C003');
+
+INSERT INTO ORDERS (Ono, Odate, Total, Qty, Mno, cid)
+VALUES (4, TO_DATE('2024-12-21', 'YYYY-MM-DD'), 16000, 1, 4, 'C004');
+
+INSERT INTO ORDERS (Ono, Odate, Total, Qty, Mno, cid)
+VALUES (5, TO_DATE('2024-12-20', 'YYYY-MM-DD'), 48000, 4, 5, 'C005');
