@@ -1,0 +1,4 @@
+CREATE TABLE CATEGORY ( -- 분류
+    cno NUMBER(2) PRIMARY KEY,
+    cname VARCHAR2(30) NOT NULL
+);
